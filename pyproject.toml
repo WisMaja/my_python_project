@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-python-project"
+version = "0.1.0"
+description = "Python project with GUI"
+authors = ["Maja <wisniewska.maja03@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
